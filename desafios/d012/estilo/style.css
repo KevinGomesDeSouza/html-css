@@ -7,6 +7,7 @@
 * {
     margin: 0px;
     padding: 0px;
+
 }
 
 header {
@@ -19,6 +20,7 @@ header h1 {
     font-family: Passion one;
     color: white;
     font-variant: small-caps;
+    font-size: 10vw;
     
 
 }
@@ -46,9 +48,11 @@ header {
 
 main p {
     font-family: Sriracha;
-    line-height: 15px;
+    line-height: 2em;
     background-color: white;
     padding-left: 30px;
+
+    font-size:  3vw;
 
 }
 
@@ -66,8 +70,9 @@ section {
 }
 
 section.imagem > p {
-    background-color:black;
-    width: 400px;
+    background-color:rgb(72, 71, 71);
+    display: inline-block;
+    padding: 40px;
 }
 
 footer {
