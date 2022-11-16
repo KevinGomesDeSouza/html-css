@@ -61,6 +61,8 @@ main p {
     color: white;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.437);
+    background-attachment: fixed;
 }
 
 
@@ -70,10 +72,26 @@ section {
 }
 
 section.imagem > p {
-    background-color:rgb(72, 71, 71);
+    background-color:rgba(72, 71, 71, 0.287);
     display: inline-block;
     padding: 40px;
+    text-shadow: 1px 1px 0px black;
+
 }
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+
+
+    }
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-size: cover;
+         
+    } 
 
 footer {
     background-color: black;
